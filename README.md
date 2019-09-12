@@ -1,5 +1,5 @@
 # How to download it 
-Run the command `git clone https://github.com/Tangyeye/tangyeye-blog`.  
+Run the command `git clone https://github.com/Tangyeye/Tangyechuipaopao`.  
 
 # How to new page 
 Run command `hexo new "page_name"` or create new file `*.md` and corresponding folder in `./source/_posts` 
@@ -13,13 +13,13 @@ All commands must be run in the root directory of the repository.
 可参考`./source/_posts`中的文章作为写作模板，若在其中添加图片，图片只能存放于和文章同目录下的同名文件夹。  
 以上内容皆有现成模板，请仔细观察模板内的内容，因模板内容自带英语注解，应该很容易理解吧。  
 除了以上提到的可修改内容，其它文件不要轻易修改（除非熟悉Hexo框架）。  
-每次修改后，需双击运行`./upload.bat`脚本，可自动提交修改到`github`仓库，一般约2~3min后，网站内容会同步到最新内容。  
+每次修改后，需双击运行`./upload*.bat`脚本，可自动提交修改到`github`仓库，一般约2~3min后，网站内容会同步到最新内容。  
 你的`github`账号内新加的仓库，都不是多余的，删除任何一个，都会影响你的网站的正常运维。  
 当你在不同电脑或虚拟机内使用同一个仓库进行修改时，可能会出现修改的内容不一致的情况，所以当你在A电脑上修改博客并上传，然后要在B电脑上继续之前的工作时，注意更新本地仓库内容&rarry;双击运行`update*.bat`/`update*.sh`，否则可能会出现修改内容有冲突的情况，导致你无法正常用脚本上传修改内容，那么容易理解的解决方法就是，把作过修改的内容复制出来放在一个新目录中的新文件中，然后删除本地仓库重新下载仓库，再把添加或修改的内容填补回去，一般就没问题了。  
 ## 可修改内容 
 - `./source/`
     - `posts/*`
-    - `about/index.md`
+    - `about/index.md` &rarr; `关于`页面
 
 ## `Windows` 
 `C:/User/username/.ssh`建议你备份好该文件夹（除非你熟悉自己配置ssh密钥，网上有很多教程），当你换个windows系统环境时，需恢复该文件夹到指定用户目录下，以便脚本正常运行。  
@@ -70,4 +70,4 @@ Copy the content of `id_rsa_github.pub` to `Key` textarea and input the random n
 ## Download repository 
 - Go to a diretory
 - Right click to click `git bash`
-- Run the command `git clone git@github.com:Tangyeye/tangyeye-blog.git`
+- Run the command `git clone git@github.com:Tangyeye/Tangyechuipaopao.git`
