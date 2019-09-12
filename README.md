@@ -71,3 +71,6 @@ Copy the content of `id_rsa_github.pub` to `Key` textarea and input the random n
 - Go to a diretory
 - Right click to click `git bash`
 - Run the command `git clone git@github.com:Tangyeye/Tangyechuipaopao.git`
+
+## image compressor 
+[TinyPNG – Compress PNG images while preserving transparency](https://tinypng.com/)  
