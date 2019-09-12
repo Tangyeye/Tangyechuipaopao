@@ -8,7 +8,7 @@ tags:
     - note
 ---
 
-![](hello-world/01.png) 
+![](https://raw.githubusercontent.com/Tangyeye/TY/master/01.png) 
 
 # 1 
 
