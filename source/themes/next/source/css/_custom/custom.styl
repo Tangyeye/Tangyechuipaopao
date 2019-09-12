@@ -1,0 +1,52 @@
+// Custom styles.
+//add background image
+body {
+    background:url(/images/background.png);
+    background-attachment: fixed;
+}
+
+// Add shadow for post
+.post {
+margin-top: 0px;
+margin-bottom: 60px;
+padding: 25px;
+-webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+-moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+}
+
+
+// the width of the content area
+.header{
+    width: 80%;
+    +tablet() {
+        width: 100%;
+    }
+    +mobile() {
+        width: 100%;
+    }
+}
+.container .main-inner {
+    width: 80%;
+    +tablet() {
+        width: 100%;
+    }
+    +mobile() {
+        width: 100%;
+    }
+}
+.content-wrap {
+    width: calc(100% - 260px);
+    +tablet() {
+        width: 100%;
+    }
+    +mobile() {
+        width: 100%;
+    }
+}
+
+.main-inner { 
+   // margin-top: 60px;
+   // padding: 60px 60px 60px 60px;
+   // transparence
+   opacity: 0.9;
+}
