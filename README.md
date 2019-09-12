@@ -10,7 +10,7 @@ Run `upload.bat`
 # Hint 
 All commands must be run in the root directory of the repository.  
 查阅markdown。  
-可参考`./source/_posts`中的文章作为写作模板，若在其中添加图片，图片只能存放于和文章同目录下的同名文件夹。  
+可参考`./source/_posts`中的文章作为写作模板。  
 以上内容皆有现成模板，请仔细观察模板内的内容，因模板内容自带英语注解，应该很容易理解吧。  
 除了以上提到的可修改内容，其它文件不要轻易修改（除非熟悉Hexo框架）。  
 每次修改后，需双击运行`./upload*.bat`脚本，可自动提交修改到`github`仓库，一般约2~3min后，网站内容会同步到最新内容。  
